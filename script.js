@@ -11,21 +11,21 @@ let aiScoreEl = document.getElementById("ai-score");
 
 function rock() {
   playerChoice = "rock";
-  playerChoiceEl.textContent = "🧱";
+  playerChoiceEl.textContent = "👊";
   randomHand();
   winOrLoss();
 }
 
 function paper() {
   playerChoice = "paper";
-  playerChoiceEl.textContent = "📄";
+  playerChoiceEl.textContent = "✋";
   randomHand();
   winOrLoss();
 }
 
 function scissors() {
   playerChoice = "scissors";
-  playerChoiceEl.textContent = "✂️";
+  playerChoiceEl.textContent = "✌️";
   randomHand();
   winOrLoss();
 }
@@ -34,13 +34,13 @@ function randomHand() {
   hand = Math.floor(Math.random() * 3);
   if (hand === 0) {
     aiChoice = "rock";
-    aiChoiceEl.textContent = "🧱";
+    aiChoiceEl.textContent = "👊";
   } else if (hand === 1) {
     aiChoice = "paper";
-    aiChoiceEl.textContent = "📄";
+    aiChoiceEl.textContent = "✋";
   } else {
     aiChoice = "scissors";
-    aiChoiceEl.textContent = "✂️";
+    aiChoiceEl.textContent = "✌️";
   }
 }
 
