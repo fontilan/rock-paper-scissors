@@ -5,16 +5,18 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background-color: #eee;
+  background-color: #f6bd60;
   align-items: center;
   text-align: center;
+  color: #000;
 }
 
-h1 {
-  margin: 15px;
+#title {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-p {
+div p {
   margin: 10px 0;
 }
 
@@ -26,7 +28,8 @@ p {
 .ui {
   width: 300px;
   text-align: center;
-  background-color: #fff;
+  background-color: #4e3d42;
+  color: #fff;
   margin: 10px;
   padding: 5px;
   border-radius: 5px;
@@ -35,7 +38,7 @@ p {
 
 .score {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 10px 0;
 }
 
@@ -46,8 +49,8 @@ p {
 button {
   font-weight: bold;
   font-size: 3rem;
-  padding: 5px;
-  margin: 10px 5px;
+  /* padding: 5px; */
+  margin: 5px 5px;
 }
 
 #win-or-loss {
