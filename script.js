@@ -3,11 +3,11 @@ let playerChoice = "";
 let aiChoice = "";
 let playerScore = 0;
 let aiScore = 0;
-let playerChoiceEl = document.getElementById("player-choice");
-let aiChoiceEl = document.getElementById("ai-choice");
-let winOrLossEl = document.getElementById("win-or-loss");
-let playerScoreEl = document.getElementById("player-score");
-let aiScoreEl = document.getElementById("ai-score");
+const playerChoiceEl = document.getElementById("player-choice");
+const aiChoiceEl = document.getElementById("ai-choice");
+const winOrLossEl = document.getElementById("win-or-loss");
+const playerScoreEl = document.getElementById("player-score");
+const aiScoreEl = document.getElementById("ai-score");
 
 function rock() {
   playerChoice = "rock";
