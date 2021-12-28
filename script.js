@@ -1,6 +1,6 @@
-let hand = 3;
-let playerChoice = "";
-let aiChoice = "";
+let hand;
+let playerChoice;
+let aiChoice;
 let playerScore = 0;
 let aiScore = 0;
 const playerChoiceEl = document.getElementById("player-choice");
