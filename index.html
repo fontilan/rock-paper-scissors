@@ -15,26 +15,28 @@
     />
   </head>
   <body>
-    <div class="title-container">
-      <p id="title">Rock👊</p>
-      <p id="title">Paper✋</p>
-      <p id="title">Scissors✌️</p>
+    <div class="title">
+      <p>Rock👊</p>
+      <p>Paper✋</p>
+      <p>Scissors✌️</p>
     </div>
-    <div id="container">
-      <div class="ui">
+    <div class="scoreboard">
+      <div>
         <p class="score" id="player-score">0</p>
         <p class="choice" id="player-choice">-</p>
         <p>Player</p>
       </div>
-      <div class="ui">
+      <div>
         <p class="score" id="ai-score">0</p>
         <p class="choice" id="ai-choice">-</p>
         <p>Computer</p>
       </div>
     </div>
-    <button id="rock" onclick="rock()">👊</button>
-    <button id="paper" onclick="paper()">✋</button>
-    <button id="scissors" onclick="scissors()">✌️</button>
+    <div>
+      <button id="rock" onclick="rock()">👊</button>
+      <button id="paper" onclick="paper()">✋</button>
+      <button id="scissors" onclick="scissors()">✌️</button>
+    </div>
     <p id="win-or-loss"></p>
     <script src="script.js"></script>
   </body>
