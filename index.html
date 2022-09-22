@@ -11,33 +11,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
   </head>
   <body>
-    <div class="title">
-      <p>Rock👊</p>
-      <p>Paper✋</p>
-      <p>Scissors✌️</p>
-    </div>
-    <div class="scoreboard">
-      <div>
-        <p class="score" id="player-score">0</p>
-        <p class="choice" id="player-choice">-</p>
-        <p>Player</p>
+    <main>
+      <div class="title">
+        <p>Rock👊</p>
+        <p>Paper✋</p>
+        <p>Scissors✌️</p>
+      </div>
+      <div class="scoreboard">
+        <div>
+          <p class="score" id="player-score">0</p>
+          <p class="choice" id="player-choice">-</p>
+          <p>Player</p>
+        </div>
+        <div>
+          <p class="score" id="ai-score">0</p>
+          <p class="choice" id="ai-choice">-</p>
+          <p>Computer</p>
+        </div>
       </div>
       <div>
-        <p class="score" id="ai-score">0</p>
-        <p class="choice" id="ai-choice">-</p>
-        <p>Computer</p>
+        <button id="rock" onclick="rock()">👊</button>
+        <button id="paper" onclick="paper()">✋</button>
+        <button id="scissors" onclick="scissors()">✌️</button>
       </div>
-    </div>
-    <div>
-      <button id="rock" onclick="rock()">👊</button>
-      <button id="paper" onclick="paper()">✋</button>
-      <button id="scissors" onclick="scissors()">✌️</button>
-    </div>
-    <p id="win-or-loss"></p>
+      <p id="win-or-loss"></p>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
