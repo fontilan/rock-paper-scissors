@@ -30,6 +30,7 @@ body {
 .scoreboard {
   display: flex;
   justify-content: center;
+  max-width: min(800px, 100vw);
 }
 
 .scoreboard > div {
